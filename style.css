@@ -1,0 +1,111 @@
+body {
+  background-color: grey;
+}
+
+.First {
+  width: 500px;
+  height: auto;
+  padding: 15px;
+  background-color: white;
+  border: 8px solid brown;
+  border-radius: 10px;
+  color: purple;
+  font-style: italic;
+  font-size: large;
+  margin-left: 30%;
+  text-align: center;
+  box-shadow: 10px 10px 5px purple;
+  text-shadow: 2px 2px 3px purple;
+}
+.border {
+  border: 10px solid green;
+  height: 800px;
+}
+.address-top {
+  display: flex;
+  justify-content: space-between;
+}
+.address {
+  width: 220px;
+  height: 280px;
+  background-color: white;
+  border: 8px solid red;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px purple;
+  text-shadow: 2px 2px 3px purple;
+  color: purple;
+  padding: 10px;
+}
+img {
+  width: 220px;
+  height: 280px;
+}
+.address-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.input {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.input span {
+  text-align: center;
+}
+.input input {
+  width: 150px;
+  align-self: center;
+}
+.footer {
+  width: 60%;
+  border: 8px solid blueviolet;
+  margin: 10px auto;
+  background-color: green;
+}
+.footer .my-store {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.other-items {
+  background-color: yellow;
+  font-style: italic;
+  margin: 0px 15px 50px 15px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+.footer .my-store .vegetables {
+  background-color: yellow;
+  width: 380px;
+  padding: 0px 20px 20px 20px;
+  font-style: italic;
+}
+.footer h2 {
+  text-align: center;
+}
+.footer .my-store .fruits {
+  background-color: yellow;
+  padding: 0px 20px 20px 20px;
+  font-style: italic;
+  width: 380px;
+}
+
+.fix {
+  background-color: green;
+  width: 500px;
+  display: flex;
+  border: 8px solid red;
+  box-shadow: purple 10px 10px 5px;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-fix {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 550px;
+  left: 460px;
+}
